@@ -1,3 +1,4 @@
+//chnages are done
 //Using extra bit for the ptr
 module syn_FIFO
   #(parameter DEPTH = 16,
