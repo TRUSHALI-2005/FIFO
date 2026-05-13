@@ -1,0 +1,1 @@
+ -o /home/trushali/Training/SV/testbench/FIFO/compile -lc /home/trushali/Training/SV/testbench/FIFO/library.cfg -fl /home/trushali/Training/SV/testbench/FIFO/library.cfg -pli /home/trushali/Aldec/Riviera-PRO-2025.10-x64/bin/libsystf.so -sv design.sv design_tb.sv

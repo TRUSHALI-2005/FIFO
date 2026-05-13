@@ -1,0 +1,64 @@
+Riviera-PRO 2025.10.126.10025(Linux64) 2026-05-13 11:30:22
+
+Elaboration top modules:
+Verilog Module                testbench
+SystemVerilog Package         fifo_pkg
+SystemVerilog Class           *base_class
+SystemVerilog Class           \std::mailbox#(fifo_pkg::Transaction) \
+SystemVerilog Class           \*queue#([]bit) \
+
+
+-----------------------------------------------------------------------------------------------------------
+Verilog Module                              | Library | Info | Compiler Version      | Compilation Options
+-----------------------------------------------------------------------------------------------------------
+testbench                                   | work    |      | 2025.10.126 (Linux64) | -sv
+syn_FIFO                                    | work    |      | 2025.10.126 (Linux64) | -sv
+-----------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------
+SystemVerilog Package                       | Library | Info | Compiler Version      | Compilation Options
+-----------------------------------------------------------------------------------------------------------
+fifo_pkg                                    | work    |      | 2025.10.126 (Linux64) | -sv
+-----------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------
+SystemVerilog Interface                     | Library | Info | Compiler Version      | Compilation Options
+-----------------------------------------------------------------------------------------------------------
+inf                                         | work    |      | 2025.10.126 (Linux64) | -sv
+-----------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------
+SystemVerilog Class                         | Library | Info | Compiler Version      | Compilation Options
+-----------------------------------------------------------------------------------------------------------
+\fifo_pkg test \                            | work    |      | 2025.10.126 (Linux64) | -sv
+\fifo_pkg Transaction \                     | work    |      | 2025.10.126 (Linux64) | -sv
+\fifo_pkg Generator \                       | work    |      | 2025.10.126 (Linux64) | -sv
+\fifo_pkg Driver \                          | work    |      | 2025.10.126 (Linux64) | -sv
+\fifo_pkg Monitor \                         | work    |      | 2025.10.126 (Linux64) | -sv
+\fifo_pkg Scoreboard \                      | work    |      | 2025.10.126 (Linux64) | -sv
+\fifo_pkg Environment \                     | work    |      | 2025.10.126 (Linux64) | -sv
+*base_class                                 | vl      |      | 2025.10.126 (Linux64) | <unavailable>
+\std::mailbox#(fifo_pkg::Transaction) \     | work    |      | 2025.10.126 (Linux64) | -sv
+\fifo_pkg::Generator Generator::send \      | work    |      | 2025.10.126 (Linux64) | -sv
+\fifo_pkg::Generator Generator::seq_wr_rd \ | work    |      | 2025.10.126 (Linux64) | -sv
+\fifo_pkg::Generator Generator::mul_wr_rd \ | work    |      | 2025.10.126 (Linux64) | -sv
+\fifo_pkg::Generator Generator::full \      | work    |      | 2025.10.126 (Linux64) | -sv
+\fifo_pkg::Generator Generator::empty \     | work    |      | 2025.10.126 (Linux64) | -sv
+\fifo_pkg::Generator Generator::run \       | work    |      | 2025.10.126 (Linux64) | -sv
+\fifo_pkg::Generator Generator::write \     | work    |      | 2025.10.126 (Linux64) | -sv
+\fifo_pkg::Generator Generator::read \      | work    |      | 2025.10.126 (Linux64) | -sv
+\*queue#([]bit) \                           | work    |      | 2025.10.126 (Linux64) | -sv
+-----------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------
+Library                                     | Comment
+-----------------------------------------------------------------------------------------------------------
+vl                                          | Standard Verilog library
+work                                        | None
+-----------------------------------------------------------------------------------------------------------
+
+
+Simulation Options: asim +access+r work.testbench +NUM=5 +MODE=0
+
+
+The performance of simulation is reduced. Version EDU Edition
